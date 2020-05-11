@@ -1,12 +1,12 @@
 .hello{
-  font-family: cursive;
+
   text-align: center;
   color: gray;
   font-size: 5rem;
   margin-bottom: 20px;
 }
 .intro{
-  font-family: cursive;
+
   text-align: center;
   color: gray;
   margin-bottom: 10px;
@@ -31,18 +31,18 @@
 
 @media only screen and (max-width: 600px){
   .hello{
-    font-family: cursive;
+
     text-align: center;
     color: gray;
     font-size: 3rem;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 10px;
   }
   .intro{
-    font-family: cursive;
+   
     text-align: center;
     color: gray;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
    .board button{
     border-radius: 100%;
@@ -53,7 +53,8 @@
     background-color: gray;
   }
   .disp{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+   
   }
 
 }
