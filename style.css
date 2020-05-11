@@ -1,0 +1,59 @@
+.hello{
+  font-family: cursive;
+  text-align: center;
+  color: gray;
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+.intro{
+  font-family: cursive;
+  text-align: center;
+  color: gray;
+  margin-bottom: 10px;
+}
+.board button{
+  border-radius: 100%;
+  border-width: 5px;
+  border-color: black;
+  height: 7vw;
+  width: 7vw;
+  background-color: gray;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+
+@media only screen and (max-width: 600px){
+  .hello{
+    font-family: cursive;
+    text-align: center;
+    color: gray;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  .intro{
+    font-family: cursive;
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+  }
+   .board button{
+    border-radius: 100%;
+    border-width: 3px;
+    border-color: black;
+    height: 12vw;
+    width: 12vw;
+    background-color: gray;
+  }
+  .disp{
+    margin-bottom: 30px;
+  }
+
+}
